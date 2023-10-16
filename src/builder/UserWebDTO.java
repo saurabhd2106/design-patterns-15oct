@@ -1,11 +1,11 @@
 package builder;
 
 public class UserWebDTO implements UserDTO {
-	
-private String name;
-	
+
+	private String name;
+
 	private String address;
-	
+
 	private String age;
 
 	public UserWebDTO(String name, String address, String age) {
@@ -13,7 +13,7 @@ private String name;
 		this.address = address;
 		this.age = age;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
@@ -28,7 +28,7 @@ private String name;
 
 	@Override
 	public String toString() {
-		return "name=" + name + "\nage=" + age + "\naddress=" + address ;
+		return "name=" + name + "\nage=" + age + "\naddress=" + address;
 	}
 
 }
